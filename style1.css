@@ -10,9 +10,9 @@ html {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #172033;
-    background-color: #f8fafc;
-     background-image: radial-gradient(circle at 85% 15%, #dbeafe 0, transparent 25%);
+    color: black;
+    background-color: white;
+     background-image: radial-gradient(circle at 85% 15%, rgb(252, 245, 245) 0, transparent 25%);
 }
 
 header {
@@ -20,7 +20,7 @@ header {
     top: 0;
     z-index: 100;
     background-color: white;
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid whitesmoke;
 }
 
 nav {
@@ -51,7 +51,7 @@ nav h2 {
 }
 
 .nav-links a:hover {
-    color: #2563eb;
+    color: blue;
 }
 
 section {
@@ -69,7 +69,7 @@ section h2::after {
     display: block;
     width: 45px;
     height: 3px;
-    background: #2563eb;
+    background: blue;
     margin-top: 8px;
     border-radius: 5px;
 }
@@ -94,7 +94,7 @@ overflow: hidden;
     width: 280px;
     height: 280px;
     border-radius: 50%;
-    background: #dbeafe;
+    background: whitesmoke;
     opacity: 0.45;
     right: 5%;
     top: 25%;
@@ -110,13 +110,13 @@ overflow: hidden;
     font-size: 64px;
     line-height: 1.1;
     margin: 10px 0;
-    color: #111827;
+    color: black;
 }
 
 #home h2 {
     font-size: 30px;
     margin-bottom: 20px;
-    color: #374151;
+    color: rgb(87, 87, 87);
 }
 
 #home p {
@@ -129,7 +129,7 @@ overflow: hidden;
 
     width: fit-content;
 
-    background-color: #2563eb;
+    background-color: blue;
     color: white;
 
     text-decoration: none;
@@ -143,12 +143,12 @@ overflow: hidden;
 }
 #home .secondary-btn {
     background-color: white;
-    color: #2563eb;
-    border: 1px solid #2563eb;
+    color: blue;
+    border: 1px solid blue;
 }
 
 #home .secondary-btn:hover {
-    background-color: #2563eb;
+    background-color: blue;
     color: white;
 }
 .skills-container {
@@ -191,7 +191,7 @@ overflow: hidden;
 
     background-color: white;
 
-    border: 1px solid #e5e7eb;
+    border: 1px solid white;
     border-radius: 18px;
 
     transition: 0.3s;
@@ -216,7 +216,7 @@ overflow: hidden;
     padding: 5px 10px;
 
     background-color: #eff6ff;
-    color: #2563eb;
+    color:blueb;
 
     border-radius: 20px;
 
@@ -241,11 +241,11 @@ overflow: hidden;
 
     border-radius: 16px;
 
-    border: 1px solid #e5e7eb;
+    border: 1px solid ;
 }
 
 .journey-container h3 {
-    color: #2563eb;
+    color:rgb(53, 53, 234);
     font-size: 24px;
 
     margin-bottom: 10px;
@@ -261,9 +261,9 @@ overflow: hidden;
 
     padding: 10px 20px;
 
-    color: #2563eb;
+    color: blue;
 
-    border: 1px solid #2563eb;
+    border: 1px solid blue;
     border-radius: 8px;
 
     text-decoration: none;
@@ -272,7 +272,7 @@ overflow: hidden;
 }
 
 #contact a:hover {
-    background-color: #2563eb;
+    background-color: rgb(39, 39, 222);
     color: white;
 }
 @media (max-width: 768px) {
@@ -317,7 +317,7 @@ footer {
     text-align: center;
     padding: 25px;
 
-    background-color: #111827;
+    background-color: rgb(14, 13, 13);
     color: white;
 }
 #about p {
@@ -336,7 +336,7 @@ footer {
 #contact-form textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #e5e7eb;
+    border: 1px solid  rgb(245, 237, 237);
     border-radius: 8px;
     font-family: Arial, sans-serif;
     font-size: 15px;
@@ -350,21 +350,21 @@ footer {
 #contact-form input:focus,
 #contact-form textarea:focus {
     outline: none;
-    border-color: #2563eb;
+    border-color: rgb(43, 43, 236);
 }
 
 #contact-form button {
     padding: 12px;
     border: none;
     border-radius: 8px;
-    background-color: #2563eb;
+    background-color: rgb(49, 49, 236);
     color: white;
     font-size: 15px;
     cursor: pointer;
 }
 
 #contact-form button:hover {
-    background-color: #1d4ed8;
+    background-color: blue;
 }
 
 #form-message {
