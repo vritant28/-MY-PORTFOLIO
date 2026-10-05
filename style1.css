@@ -73,14 +73,28 @@ section h2::after {
     margin-top: 8px;
     border-radius: 5px;
 }
+.hero-image img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #home {
     min-height: 85vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 80px;
     position: relative;
-overflow: hidden;
+    overflow: hidden;
+    gap: 50px;
 }
 .hero-buttons {
     display: flex;
@@ -292,6 +306,15 @@ overflow: hidden;
     section {
         padding: 70px 20px;
     }
+    #home {
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 220px;
+    height: 220px;
+}
 
     #home h1 {
         font-size: 45px;
