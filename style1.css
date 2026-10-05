@@ -79,17 +79,15 @@ section h2::after {
     justify-content: space-between;
     align-items: center;
     padding-top: 80px;
-    position: relative;
-    overflow: hidden;
     gap: 50px;
 }
 
 .hero-content {
-    max-width: 650px;
+    width: 60%;
 }
 
 .hero-image {
-    flex-shrink: 0;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,9 +98,7 @@ section h2::after {
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
-
 
 .hero-buttons {
     display: flex;
